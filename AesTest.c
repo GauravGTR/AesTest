@@ -40,7 +40,21 @@ void ShiftRows(int arry[4][4]){
 
     }
 
-void MixColumn(int arry[4][4]){
+void MixColumns(int arry[4][4]){
+        int temp1,temp2,temp3,temp4;
+        for(int j=0;j<4;j++){
+        temp1=arry[0][j];
+        temp2=arry[1][j];
+        temp3=arry[2][j];
+        temp4=arry[3][j];
+                arry[0][j]=temp1*1 + temp2*1 + temp3*1 + temp4*1;
+                arry[1][j]=temp1*1 + temp2*1 + temp3*1 + temp4*1;
+                arry[2][j]=temp1*1 + temp2*1 + temp3*1 + temp4*1;
+                arry[3][j]=temp1*1 + temp2*1 + temp3*1 + temp4*1;
+                
+        
+        }
+        
 
 }
 
