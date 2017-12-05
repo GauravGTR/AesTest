@@ -40,6 +40,10 @@ void ShiftRows(int arry[4][4]){
 
     }
 
+void MixColumn(int arry[4][4]){
+
+}
+
 
 void main(){
     //int *State= (int*) malloc(16*sizeof(int));
