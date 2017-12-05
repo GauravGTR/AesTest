@@ -41,8 +41,6 @@ void ShiftRows(int arry[4][4]){
     }
 
 
-
-
 void main(){
     //int *State= (int*) malloc(16*sizeof(int));
     int State[4][4];
@@ -51,7 +49,6 @@ void main(){
         for(j=0;j<4;j++){
                 printf("Enter element in state at position [%d][%d]",i,j);
                 scanf("%d",&State[i][j]);
-
         }
     }
     printf("State provided by User ");
@@ -60,8 +57,6 @@ void main(){
     for(i=0;i<4;i++){
         for(j=0;j<4;j++){
                 printf("[%d] ",State[i][j]);
-
-
         }
         printf("\n");
     }
@@ -75,19 +70,8 @@ void main(){
     for(i=0;i<4;i++){
         for(j=0;j<4;j++){
                 printf("[%d] ",State[i][j]);
-
-
         }
         printf("\n");
     }
-
-
-
-
-
-
-
-
-
 
 }
