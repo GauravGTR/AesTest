@@ -58,6 +58,13 @@ void MixColumns(int arry[4][4]){
 
 }
 
+int bitXor(int x, int y) 
+{
+    int a = x & y;
+    int b = ~x & ~y;
+    int z = ~a & ~b;
+    return z;
+} 
 
 void main(){
     //int *State= (int*) malloc(16*sizeof(int));
