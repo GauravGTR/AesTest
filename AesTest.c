@@ -78,6 +78,7 @@ void main(){
                 scanf("%d",&State[i][j]);
         }
     }
+        
     printf("State provided by User ");
     printf("\n");
 
