@@ -40,6 +40,15 @@ void ShiftRows(int arry[4][4]){
 
     }
 
+int bitXor(int x, int y) 
+{
+    int a = x & y;
+    int b = ~x & ~y;
+    int z = ~a & ~b;
+    return z;
+} 
+
+
 void MixColumns(int arry[4][4]){
         int temp1,temp2,temp3,temp4;
         for(int j=0;j<4;j++){
@@ -58,13 +67,6 @@ void MixColumns(int arry[4][4]){
 
 }
 
-int bitXor(int x, int y) 
-{
-    int a = x & y;
-    int b = ~x & ~y;
-    int z = ~a & ~b;
-    return z;
-} 
 
 void main(){
     //int *State= (int*) malloc(16*sizeof(int));
